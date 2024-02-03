@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 5.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 2px solid #e0e6ea;
+}
+header img{
+    margin: 0px 6rem;
+}
+
+
+main{
+    display: flex;
+    /* justify-content: ; */
+}
+.left-box{
+    width: 60%;
+    height: 50rem;
+    background-color: #f7fcff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.topText{
+    font-size: 20px;
+    font-style: normal;
+    padding-bottom: 15px;
+}
+.msgBox{
+    height: 18rem;
+    width: 35rem;
+    background-color: #fff;
+    border: 2px solid #e0e6ea;
+    border-radius: 20px;
+}
+.pfp{
+    display: flex;
+    padding: 20px;
+}
+.sideText{
+    color: #91a0b7;
+    margin: 20px 15px;
+    font-size: 18px;
+}
+.line{
+    width: 33rem;
+    height: 1px;
+    background-color: #e0e6ea;
+    margin: 110px 0px 0px 12px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.count{
+    color: #60738d;
+    font-size: 18px;
+    margin-left: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4rem;
+    width: 6.4rem;
+    background-color: #0041ca;
+    border-radius: 60px;
+    margin-right: 30px;
+}
+.butText{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.right-box{
+    width: 40%;
+    height: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+}
+.topText{
+    font-size: 22px;
+}
+.card{
+    height: 15rem;
+    width: 38rem;
+    background-color: #fff;
+    border: 2px solid #e0e6ea;
+    border-radius: 10px;
+    display: flex;
+
+}
+.picSide{
+  margin:20px 20px 0px 40px ;
+
+}
+
+.headText{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 30rem;
+    margin: 2rem 0rem 1rem;
+}
+.name{
+    color: black;
+    font-size: 20px;
+}
+.uid{
+    color: #60738d;
+    font-size: 18px;
+}
+.editOpt{
+    width: 6rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+}
+.textbody{
+    color: rgb(97, 93, 93);
+    font-size: 20px;
+    margin-right: 2rem;
+
+}
+.likeComm{
+    width: 4rem;
+    gap : 1.7rem;
+    display: flex;
+    margin: 1.2rem 0rem;
+
+}
+
+.cardAurComment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.commentCard{
+    height: 10rem;
+    width: 30rem;
+    background-color: #fff;
+    border: 2px solid #e0e6ea;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 40px;
+
+}
